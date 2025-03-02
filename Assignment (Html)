@@ -1,75 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
-</head>
-<body>
-    <h1 class="title">Portfolio</h1>
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-    <div class="container">
- <img src="https://preview.redd.it/made-some-anime-profile-pictures-to-use-which-is-your-v0-4b8rcua2drrc1.png?width=640&crop=smart&auto=webp&s=946c5bf0f91a68b97379b683e993badcdd080002" 
-     alt="Profile Picture" 
-     class="profile-pic" 
-     style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
-        <div class="info-box">
-            <p class="info-title"><u>Introduction</u></p>
-            <p><b>Greetings:</b> My name is Nilabhra Sarkar, and I am a passionate and dedicated student currently pursuing a Bachelor of Computer Applications (BCA) at Adamas University in Kolkata, where I am in my second semester. I have a strong interest in programming, problem-solving, and software development. My goal is to enhance my technical skills and gain practical experience in the field of computing.</p>
-            <p>In addition, I am particularly interested in machine learning and artificial intelligence (AI). I am eager to learn new technologies and engage in projects that challenge my abilities. Furthermore, I have a keen interest in content writing and acting.</p>
-        </div>
-    </div>
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
 
-    <table class="course-table">
-        <tr>
-            <th>Education - Bachelor of Computer Applications (BCA)</th>
-        </tr>
-    </table>
+.title {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-    <table class="details-table">
-        <tr>
-            <th>Skills</th>
-            <th>Service</th>
-            <th>Contact Number</th>
-            <th>Hobbies</th>
-            <th>Current Semester</th>
-            <th>Favorite Programming Language</th>
-        </tr>
-        <tr>
-            <td>
-                Programming Languages: C, Python, HTML <br>
-                Web Development: Basic HTML & Frontend Development <br>
-                Editing: Video and Image Editing <br>
-                Content Writing: Blog writing, articles, and creative content <br>
-                Acting: Theatrical and on-stage performance <br>
-                Foreign Languages: German
-            </td>
-            <td>
-                Front-End Development (C, Python, HTML) <br>
-                Content Writing (Blogs, Articles, Technical Writing) <br>
-                Editing & Multimedia (Video & Image Editing) <br>
-                Language Assistance (Foreign Language Support)
-            </td>
-            <td>9064899724</td>
-            <td>Writing, acting, and gaming.</td>
-            <td>2nd</td>
-            <td>HTML</td>
-        </tr>
-    </table>
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+}
 
-    <h2 class="github-title"><u>Go Check Out My GitHub</u></h2>
-    <a href="https://github.com/VidasV-web" target="_blank" class="github-link">My GitHub</a>
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #ff758c;
+}
 
-    <hr>
+.info-box {
+    text-align: left;
+    padding: 10px;
+}
 
-    <footer>
-        <p>📩 Contact me on:</p>
-        <p>Email: <a href="mailto:violet18206@gmail.com">violet18206@gmail.com</a></p>
-        <p>Outlook: <a href="mailto:nilabhra1.sarkar@stu.adamasuniversity.ac.in">nilabhra1.sarkar@stu.adamasuniversity.ac.in</a></p>
-        <p>Visit <a href="https://www.adamasuniversity.ac.in" target="_blank">Adamas University</a></p>
-        <p><b>&copy; 2025 Nilabhra Sarkar. All Rights Reserved.</b></p>
-    </footer>
-</body>
-</html>
+.info-title {
+    font-size: 1.5em;
+    color: #ff758c;
+    margin-bottom: 10px;
+}
 
+.course-table, .details-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+}
+
+.github-title {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.github-link:hover {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+}
+
+footer a {
+    color: #ff758c;
+    text-decoration: none;
+    font-weight: bold;
+}
