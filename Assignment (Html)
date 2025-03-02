@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <h1 class="title">Portfolio</h1>
+
+    <div class="container">
+ <img src="https://preview.redd.it/made-some-anime-profile-pictures-to-use-which-is-your-v0-4b8rcua2drrc1.png?width=640&crop=smart&auto=webp&s=946c5bf0f91a68b97379b683e993badcdd080002" 
+     alt="Profile Picture" 
+     class="profile-pic" 
+     style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+        <div class="info-box">
+            <p class="info-title"><u>Introduction</u></p>
+            <p><b>Greetings:</b> My name is Nilabhra Sarkar, and I am a passionate and dedicated student currently pursuing a Bachelor of Computer Applications (BCA) at Adamas University in Kolkata, where I am in my second semester. I have a strong interest in programming, problem-solving, and software development. My goal is to enhance my technical skills and gain practical experience in the field of computing.</p>
+            <p>In addition, I am particularly interested in machine learning and artificial intelligence (AI). I am eager to learn new technologies and engage in projects that challenge my abilities. Furthermore, I have a keen interest in content writing and acting.</p>
+        </div>
+    </div>
+
+    <table class="course-table">
+        <tr>
+            <th>Education - Bachelor of Computer Applications (BCA)</th>
+        </tr>
+    </table>
+
+    <table class="details-table">
+        <tr>
+            <th>Skills</th>
+            <th>Service</th>
+            <th>Contact Number</th>
+            <th>Hobbies</th>
+            <th>Current Semester</th>
+            <th>Favorite Programming Language</th>
+        </tr>
+        <tr>
+            <td>
+                Programming Languages: C, Python, HTML <br>
+                Web Development: Basic HTML & Frontend Development <br>
+                Editing: Video and Image Editing <br>
+                Content Writing: Blog writing, articles, and creative content <br>
+                Acting: Theatrical and on-stage performance <br>
+                Foreign Languages: German
+            </td>
+            <td>
+                Front-End Development (C, Python, HTML) <br>
+                Content Writing (Blogs, Articles, Technical Writing) <br>
+                Editing & Multimedia (Video & Image Editing) <br>
+                Language Assistance (Foreign Language Support)
+            </td>
+            <td>9064899724</td>
+            <td>Writing, acting, and gaming.</td>
+            <td>2nd</td>
+            <td>HTML</td>
+        </tr>
+    </table>
+
+    <h2 class="github-title"><u>Go Check Out My GitHub</u></h2>
+    <a href="https://github.com/VidasV-web" target="_blank" class="github-link">My GitHub</a>
+
+    <hr>
+
+    <footer>
+        <p>📩 Contact me on:</p>
+        <p>Email: <a href="mailto:violet18206@gmail.com">violet18206@gmail.com</a></p>
+        <p>Outlook: <a href="mailto:nilabhra1.sarkar@stu.adamasuniversity.ac.in">nilabhra1.sarkar@stu.adamasuniversity.ac.in</a></p>
+        <p>Visit <a href="https://www.adamasuniversity.ac.in" target="_blank">Adamas University</a></p>
+        <p><b>&copy; 2025 Nilabhra Sarkar. All Rights Reserved.</b></p>
+    </footer>
+</body>
+</html>
+
